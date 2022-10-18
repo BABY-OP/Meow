@@ -15,5 +15,7 @@ RUN apt update && apt upgrade -y && apt install ffmpeg git -y
 COPY . /app
 WORKDIR /app
 RUN pip3 install -U -r requirements.txt
-RUN pip3 install -U -r VC
+RUN pip3 install --no-cache-dir --upgrade --requirement VC
+
+#RUN pip3 install -U -r VC
 CMD python3 Meow.py
