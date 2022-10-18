@@ -1,1 +1,1 @@
-worker: python3 -m Meow
+worker: python3 Meow.py
