@@ -1,6 +1,6 @@
-from pyrogram import idle
-from pytgcalls import idle as pidle
 import asyncio
+from pytgcalls import idle
+from config import call_py, app
 from config import (app, hl, TIMEZONE, LOGS_CHANNEL, MONGO_DB, SUDO_USERS, call_py )
 
 
